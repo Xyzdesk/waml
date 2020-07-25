@@ -1,1 +1,18 @@
-
+<!DOCTYPE waml
+[
+<!ELEMENT waml (waml,body,para,foot,!--,!,?)>
+<!ELEMENT waml (#PCDATA)>
+<!ELEMENT body (#PCDATA)>
+<!ELEMENT para (#PCDATA)>
+<!ELEMENT foot (#PCDATA)>
+<!ELEMENT !-- (#PCDATA)>
+<!ELEMENT ! (#PCDATA)>
+<!ELEMENT ? (#PCDATA)>
+<!ENTITY sl "\">
+<!ENTITY fsl "/">
+<!ENTITY qm "?">
+<!ENTITY lt "<">
+<!ENTITY mt ">">
+<!ENTITY as "*">
+<!ENTITY hash "#">
+]>
